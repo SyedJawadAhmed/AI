@@ -188,11 +188,16 @@ span {
     height: 86vh;
 }
 
-.hero-right img {
+.hero-right {
     width: 40vw;
     height: 85.6vh;
     padding: 0;
-    border: 5px solid rgb(253, 237, 6);
+    border: 5px solid rgb(253, 6, 142);
+}
+.lady{
+    width: 40vw;
+    height: 85.6vh;
+    padding: 0;
 }
 .hero-section {
     display: flex;
@@ -200,6 +205,90 @@ span {
     align-items: flex-start;
     width: 100%;
     gap: 0%;
+}
+/* Message Box CSS */
+.msg-box {
+    display: flex;
+    align-items: center;
+    background: #8d7a6b;
+    border-radius: 20px;
+    padding: 5px 15px 5px 5px;
+    width: 15%;
+    box-shadow: 2px 2px 6px rgba(0,0,0,0.1);
+    position: absolute;
+    top: 50%;
+    left: 83%;
+    font-family: "Acme", sans-serif;
+}
+
+.msg-num {
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    background: #d80000;
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.2rem;
+    border-radius: 50%;
+    width: 28px;
+    height: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid black;
+    z-index: 2;
+}
+
+.msg-img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-left: 25px;
+    margin-right: 10px;
+    border: 2px solid #333;
+}
+
+.msg-text {
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+.chat-bubble {
+  background: #d9d9d9; /* Light gray bubble */
+  border-radius: 20px;
+  padding: 10px;
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.chat-line {
+  background: #ff7b7b; /* Light red placeholder line */
+  height: 8px;
+  border-radius: 4px;
+}
+
+.chat-line.short {
+  width: 40px;
+}
+
+.chat-line.long {
+  width: 70px;
+}
+
+.chat-avatars {
+  display: flex;
+  gap: 5px;
+  margin-top: 4px;
+}
+
+.chat-avatars img {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  object-fit: cover;
 }
 
 /* .girl img {
