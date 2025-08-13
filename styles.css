@@ -20,7 +20,7 @@ body {
     text-align: center;
     justify-content: space-around;
     background-color: #F06060;
-    border-radius: 100px 100px 0 0;
+    /* border-radius: 100px 100px 0 0; */
 }
 
 .navlinks {
