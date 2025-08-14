@@ -310,7 +310,7 @@ span {
     margin: 10px 0;
   }
   .title h1 {
-    font-size: 2rem; /* Smaller heading */
+    font-size: 2rem; 
   }
   .sub-title {
     width: 90%;
@@ -334,7 +334,6 @@ span {
   }
 }
 
-/* Tablets (481px to 768px) */
 @media (min-width: 481px) and (max-width: 768px) {
   .nav {
     flex-wrap: wrap;
@@ -369,7 +368,6 @@ span {
   }
 }
 
-/* Laptops (769px to 1200px) */
 @media (min-width: 769px) and (max-width: 1200px) {
   .title h1 {
     font-size: 4rem;
@@ -385,13 +383,12 @@ span {
   }
 }
 
-/* Large Screens / MacBooks (above 1200px) */
 @media (min-width: 1201px) {
   .title h1 {
     font-size: 5rem;
   }
   .sub-title {
-    width: 32.4vw; /* Keep original proportion */
+    width: 32.4vw; 
   }
 }
 /* .girl img {
